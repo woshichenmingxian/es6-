@@ -134,9 +134,9 @@ myPromise.prototype.then=function(onFulfiled,onRejected){
 //调用
 let p=new myPromise(function(resolve,reject){
   setTimeout(()=>{
-    let num=Math.random();
+    let num=Math.random()*10;
     console.log(num)
-    if(num<.5){
+    if(num<5.5){
       resolve(num)
     }else{
       reject('失败')
