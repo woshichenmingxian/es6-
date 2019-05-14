@@ -130,31 +130,7 @@ myPromise.prototype.then=function(onFulfiled,onRejected){
     });
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//调用
 let p=new myPromise(function(resolve,reject){
   setTimeout(()=>{
     let num=Math.random();
