@@ -44,6 +44,7 @@ function myPromise(exector){
 
 }
 
+//解析then后的回调
 function resovlePromise(promise,x,resolve,reject){
   //promise 与return x一样的 会没有完成的return 值
   if(promise==x){
